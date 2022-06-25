@@ -25,22 +25,9 @@
             </div>
 
             <div class="login_container">
-                <form id="mainform" method="post">
-                    @csrf
-                    <div class="form_row">
-                        <label for="username_textbox">Username</label>
-                        <input id="username" name="username" type="text">
-                    </div>
-                    <div class="form_row">
-                        <label for="password_textbox">Password</label>
-                        <input id="pwd" name="pwd" type="password">
-                    </div>
-                    @section("content_form")
-                    @show()
-                    
-                    
-                    
-                </form>
+                @section("white_container")
+                @show()
+
                 
             </div>
         </section>

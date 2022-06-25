@@ -23,10 +23,7 @@
                 </div>
                 <div>
                     <p>{{session("username")}}</p>
-                    <form method="post">
-                         <button  id="logout" > logout </a>
-                         @csrf
-                    </form>
+
                 </div>
             </div>
             <form action="changeimgprofile" method ="post">

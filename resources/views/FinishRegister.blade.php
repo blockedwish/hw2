@@ -1,11 +1,10 @@
+@extends('layouts.welcome')
 
-<html>
-<head>
-<link rel="stylesheet" href="./css/finish_register.css">
-</head>
-<body class="success">
+@section("head_aggiuntivi")
+@stop
+
+
+@section("white_container")
 <h1> {{$message}} </h1>
-<a href=".">Vai alla Login page</a>
-</body>
-
-</html>
+<a href="."><button> ANDIAMO! </button></a>
+@stop
