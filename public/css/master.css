@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap'); /*COPIATA E INCOLLATA DA FONTS.GOOGLE.COM */
+
+p, h1,input, button, a, th, td, label{
+    font-family: 'Dongle', sans-serif;
+}
+body{
+  /*  background-color: rgb(213, 213, 213);*/
+    background-color: #DFF5CE;
+}
+div.options{
+    gap:10px;
+}
+table{
+    border:2px solid #333333;
+    border-radius: 4px;
+}  
+
+button, input{
+    background-color:#9ad14b;
+    border:3px solid #333333;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:rgba(255, 255, 255, 0.964);
+    border-radius: 5px;
+    padding:10px;
+    font-size: 30px;
+    text-transform: uppercase;
+} 
+td{
+    font-size: 35px;
+    text-align: center;
+}
+tr{
+    background-color:#99d14bb6; 
+}
+tr:hover{
+    background-color:#9ad14b;
+}
+input{ 
+    border:none;
+    border-bottom: 3px solid green;
+    font-size: 20px;
+}
+button:hover, input:hover{
+    background-color:#a5ea45c4;
+}
+@media only screen and (max-width: 600px) {
+    input{
+        font-size:20px;
+    }
+    #image_bacheca, #image_control_panel{
+        display: inline-block;
+      
+    }
+    nav{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .nullable{
+        display:none;
+    }
+
+
+}
+
+
