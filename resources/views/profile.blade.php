@@ -11,8 +11,6 @@
 
             </div>
 
-   
-
     <section>
         <div class="container">
             <div class="box">
@@ -25,7 +23,9 @@
                     <p>{{session("username")}}</p>
 
                 </div>
+                
             </div>
+            
             <form action="changeimgprofile" method ="post">
                 @csrf
                 
@@ -45,6 +45,10 @@
                     <button id="button_changer" > Cambia </button>
                 </div>
             </div>
+            <form method="post" >
+                     @csrf
+                     <button id="logout">Esci </button> 
+                </form>
     </div>
 
     </section>

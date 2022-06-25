@@ -53,6 +53,7 @@ function button_changer_handler(event){
 }
 function change_password_interrupt(event){
     reimposta_password_button.classList.add("hidden");
+    logout.classList.add("hidden");
     sub_window.classList.remove("hidden");
     widget_img_changer.classList.add("hidden");
 }
@@ -74,6 +75,7 @@ button_changer.addEventListener("click",button_changer_handler);
 let img= document.querySelector("#profileimg");
 
 let reimposta_password_button = document.querySelector("#reimposta_password")
+let logout = document.querySelector("#logout")
 reimposta_password_button.addEventListener("click", change_password_interrupt)
 let old_password = document.querySelector("#old_password");
 let new_password = document.querySelector("#new_password");
